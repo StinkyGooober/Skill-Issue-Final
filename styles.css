@@ -1,0 +1,270 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(85, 133, 246);
+}
+header {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 300%;
+    letter-spacing: 0.25em;
+    font-family: 'Old English Text';
+}
+nav {
+    background-color: black;
+    height: 15%;
+    text-align: center;
+    font-size: 40px;
+    line-height: 50px;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+}
+nav ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+nav a {
+    color: rgb(133, 183, 252);
+    text-decoration: none;
+    margin: 0 15px;
+    font-family: Old English Text;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: white 5px solid;
+    background-color: black;
+    color: white;
+    max-width: 50%;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-left: 25%;
+    margin-right: 25%;  
+    margin-top: 2.5%;
+    margin-bottom: 10%;
+    border-radius: 15px;
+}
+main a {
+    color: rgb(166, 139, 252);
+    text-decoration: none;
+}
+main a:hover {
+    text-decoration: underline;
+}
+h2 {
+    font-family: 'Old English Text';
+    color: rgb(252, 252, 252);
+    font-size: 200%;
+    margin-bottom: 20px;
+}
+#aboutUsContent {
+    font-family:Arial, Helvetica, sans-serif
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+#memberContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 2%;
+}
+#membersHeader {
+    font-family: 'Old English Text';
+    color: rgb(255, 255, 255);
+    font-size: 250%;
+    border-bottom: white 5px solid;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+}
+.memberInfo {
+    text-align: center;
+    border-left: white 5px solid;
+    border-bottom: white 5px solid;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+.memberName {
+    font-size: 250%;
+    font-family: 'Old English Text';
+    color: rgb(185, 212, 249);
+}
+.memberTitle {
+    font-size: 130%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+}
+.memberIntro {
+    font-size: 120%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+p {
+    font-size: 120%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.memberPhoto {
+    width: 100%;
+    height: auto;
+    border-right: white 5px solid;
+    border-bottom: white 5px solid;
+}
+.equipList {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+    margin-top: 2%;
+    list-style-type: disc;
+    text-align: left;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+h3 {
+    font-size: 150%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+main li {
+    font-size: 120%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.headp {
+    font-size: 120%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin: 0;
+    border-top: solid 5px white;
+    border-bottom: solid 5px white;
+    margin-bottom: 2%;
+}
+#setList {
+    list-style: none;
+    text-align: left;
+    padding-left: 15%;
+    padding-top: 1%;
+    padding-bottom: 5%;
+    border-bottom: solid 5px white;
+}
+#setList a {
+    color: rgb(166, 139, 252);
+    text-decoration: none;
+}
+#setList a:hover {
+    text-decoration: underline;
+}
+#audioContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2%;
+}
+audio {
+    padding-bottom: 2%;
+    align-items: center;
+}
+.songs {
+    color: lightblue;
+}
+label {
+    margin-top: 10px;
+    display: block;
+}
+#submit {
+    margin-top: 20px;
+    margin-bottom: 2.5%;
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid white;
+    border-collapse: collapse;
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+th, td {
+    border: 1px solid white;
+    padding: 8px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+th {
+    background-color: rgb(205, 103, 205);
+    color: black;
+}
+td {
+    background-color: rgb(120, 188, 230);
+    color: black;
+}
+#pricingHead {
+    font-family: 'Old English Text';
+    font-size: 200%;
+    border-top: white 5px solid;
+    border-bottom: white 5px solid;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width: 800px) {
+    nav {
+        font-size: 35px;
+    }
+    #setList {
+        list-style: disc;
+    }
+    #setList li {
+        display: list-item;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    header {
+        font-size: 175%;
+    }
+    main {
+        max-width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 20%;
+    }
+    #memberContainer {
+        grid-template-columns: 1fr;
+    }
+    .memberInfo {
+        border-left: none;
+        border-right: none;
+    }
+    .memberPhoto {
+        border-right: none;
+    }
+}
+@media screen and (max-width: 400px) {
+    nav {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    header {
+        font-size: 125%;
+    }
+    main {
+        margin-bottom: 30%;
+    }
+}
